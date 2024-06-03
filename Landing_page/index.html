@@ -10,12 +10,13 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar"> 
             <div class="logo">Fashionista</div>
+            <div class="toggle-btn">&#9776;</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#products">Products</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#Testimonials">Testimonials</a></li>
                 <li><a href="#faq">FAQ</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -28,6 +29,15 @@
             <p>Trendy and stylish outfits that you'll love.</p>
             <a href="#products" class="btn">Shop Now</a>
         </div>
+    </section>
+
+    <section>
+        <div class="boxes">
+            <div class="box"><i class="fas fa-map-marker-alt google-icon"></i> Free delivery </div>
+            <div class="box"> <i class="fas fa-gift google-icon"></i> Gift voucher </div>
+            <div class="box"><i class="fas fa-dollar-sign google-icon"></i> Money Return </div>
+            <div class="box"> <i class="fas fa-hand-holding-heart google-icon"></i> 24/7 Support </div>
+          </div>
     </section>
     
     <section id="products" class="products">
@@ -115,7 +125,7 @@
         </div>
     </section>
     <section id="contact" class="contact">
-        <h2>Get in Touch</h2>
+        <h2>Feedback And Suggestions</h2>
         <form>
             <input type="text" placeholder="Your Name" required>
             <input type="email" placeholder="Your Email" required>
@@ -123,7 +133,14 @@
             <button type="submit" class="btn">Send Message</button>
         </form>
     </section>
-    
+    <div class="newsletter-cta" id="newsletter">
+        <h1>Subscribe to Our Newsletter</h1>
+        <p>Get exclusive offers and updates directly to your inbox.</p>
+        <form>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit" class="btn">Subscribe</button>
+        </form>
+    </div>
     <footer class="footer">
         <div class="container1">
           <div class="footer-info">
@@ -154,6 +171,6 @@
       </footer>
     
     
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
 </body>
 </html>
